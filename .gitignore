@@ -1,0 +1,13 @@
+# Large video files
+*.mp4
+assets/Annamalai Part - 2.mp4
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Build directories
+dist/
+build/
