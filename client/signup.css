@@ -1,0 +1,62 @@
+.signup {
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color: silver;
+    padding: 25px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 80%;
+}
+
+.data input {
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    background-image: url("");
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}

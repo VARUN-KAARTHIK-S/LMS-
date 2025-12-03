@@ -1,0 +1,65 @@
+video {
+
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    background-size: contain;
+    gap: 0px;
+
+}
+
+footer {
+    height: 50px;
+    background-color: rgb(0, 12, 243);
+    text-align: center;
+    gap: 0px;
+
+}
+.mv{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    background-color: darkolivegreen;
+    gap: 0px;
+
+
+}
+header {
+
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    gap: 0px;
+}
+
+body {
+background-color: rgb(0, 0, 0);
+
+}
+
+footer:hover {
+    background-color: black;
+    color:aliceblue;
+    animation: none;
+}
+header:hover {
+    background-color: black;
+    color:aliceblue;
+}
+header span:hover {
+    color:rgb(15, 143, 255);
+
+}
+.heading:hover {
+    color:rgb(15, 143, 255);
+    animation: rota linear infinite 2s;
+
+}
+.heading{
+    animation: none
+
+}
+
+@keyframes rota{
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
+}
