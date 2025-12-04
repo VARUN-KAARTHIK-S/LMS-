@@ -1,0 +1,98 @@
+.outer {
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    border-radius: 2px;
+    border: 1px solid black;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+
+
+}
+
+.signup {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    border-radius: 2px;
+    border: 1px solid black;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 25px;
+    text-align: center;
+}
+
+.logo-text {
+    font-family: grandhotel, cursive;
+    ;
+}
+
+.up {
+
+    margin: auto;
+    padding-left: 42%;
+    padding-right: 42%;
+}
+
+
+.login-btn {
+    background-color: rgb(101, 43, 226);
+    color: white;
+    width: 245px;
+    border-radius: 4px;
+    margin-top: 5px;
+    height: 30px;    
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.login-btn:hover {
+    background-color: rgb(133, 88, 228);
+}
+
+.user-name {
+    width: 225px;
+    height: 30px;
+    border-radius: 2px;
+    gap: 5px;
+    border-color: black;
+    margin-bottom: 5px;
+    padding-left: 15px;
+}
+
+body {
+    text-align: center;
+}
+
+
+
+.pass {
+    margin-bottom: 5px;
+    height: 30px;
+    width: 225px;
+    padding-left: 15px;
+
+
+
+}
+
+.ps,
+.ms {
+    width: 100px;
+    height: 25px;
+    border-radius: 2px;
+}
+
+.use-fb {
+    color: rgb(20, 73, 244);
+    text-decoration: none;
+}
+
+.fp {
+    color: black;
+}
